@@ -11,7 +11,7 @@ Source0: %{name}.src.tar.bz2
 Source1: %name.initscript.bz2
 License: GPL
 Group: Monitoring
-Url: http://www.virtualworlds.de/Download
+Url: https://www.virtualworlds.de/Download
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires(post): rpm-helper
 Requires(preun): rpm-helper

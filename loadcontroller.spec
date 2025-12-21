@@ -16,6 +16,11 @@ BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 A daemon which checks the load of an server in defineable
 periods. If the load exceeds a defineable limit during a

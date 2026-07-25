@@ -1,7 +1,7 @@
 %define name loadcontroller
 %define version 0.11
-%define rel %mkrel 7
-%define release 0.BETA.%rel
+%define rel 8
+%define release 1
 
 Summary: A daemon which checks process
 Name: %{name}
